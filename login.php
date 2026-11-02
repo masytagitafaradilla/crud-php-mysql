@@ -45,12 +45,12 @@ if (isset($_POST["submit"])) {
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Data Mahasiswa</title>
+    <title>Login Data Mahasiswa - Kelompok</title>
     <link rel="stylesheet" href="assets/login.css">
 </head>
 <body>
 <div class="container">
-    <h1>Data Mahasiswa</h1>
+    <h1>Selamat Datang di Sistem Informasi Mahasiswa</h1>
     <?php
     if ($error_message !== "") {
         echo "<div class='error'>$error_message</div>";
