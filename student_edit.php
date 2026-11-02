@@ -106,7 +106,7 @@ if (isset($_POST["submit"])) {
             <li><a href="logout.php">Logout</a></li>
         </ul>
     </nav>
-    <h2>Edit Data Mahasiswa</h2>
+    <h2>Form Edit Mahasiswa</h2>
     <?php
     if ($error_message !== "") {
         echo "<div class='error'>$error_message</div>";
