@@ -17,7 +17,11 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-th, td {
+th {
+    background: #eeeeee;
+}
+
+td {
     padding: 8px;
 }
 .error {
